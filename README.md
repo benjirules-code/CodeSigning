@@ -22,7 +22,7 @@ CodeSigning Process
 	-----------------------------
 	sec   rsa4096/09544086B54EA763 2024-10-02 [SC] [expires: 2025-10-02]
       3C39429AA5499ED1306CB95C09544086B54EA763
-	uid                 [ultimate] codesigning-patching-script (this is only a testing script key) <tony.carruthers@bt.com>
+	uid                 [ultimate] <Enter GPG Key Name> (this is only a testing script key) <Email Address>
 	ssb   rsa4096/C66E01D6981EB9CC 2024-10-02 [E] [expires: 2025-10-02]
 	
 	
@@ -59,13 +59,13 @@ CodeSigning Process
 
 Output Example:
 
-[2024-10-02 22:03:20] Signed script: /home/tony/Desktop/codesigning/key_gen_sign.sh
+[2024-10-02 22:03:20] Signed script: <Path to Signed Script>
 Auth Code: ad08cb8ac39b0f0c67d49b05aa4440ba26350afd6e89ab7870e7f4700189e83f
 GPG Key: 09544086B54EA763
 Device: kali
 Expiry: 2025-10-02
 -----------------------------
-[2024-10-02 22:07:04] Signed script: /home/tony/Desktop/codesigning/key_gen_sign.sh
+[2024-10-02 22:07:04] Signed script: <Path to Signed Script>
 Auth Code: dbbd9f0e6d44cc2311d775ebc0c05fe598fe8e04039330855c06f461fbe709bf
 GPG Key: 09544086B54EA763
 Device: kali
